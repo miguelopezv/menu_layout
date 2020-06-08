@@ -118,19 +118,19 @@ class MenuPage extends StatelessWidget {
       children: [
         TableRow(children: [
           _card(Colors.blue, Icons.border_all, 'General'),
-          _card(Colors.purpleAccent, Icons.directions_bus, 'General'),
+          _card(Colors.purpleAccent, Icons.directions_bus, 'Transport'),
         ]),
         TableRow(children: [
-          _card(Colors.pinkAccent, Icons.shop, 'General'),
-          _card(Colors.orange, Icons.insert_drive_file, 'General'),
+          _card(Colors.pinkAccent, Icons.shop, 'Entertaiment'),
+          _card(Colors.orange, Icons.insert_drive_file, 'Office'),
         ]),
         TableRow(children: [
-          _card(Colors.blueAccent, Icons.movie_filter, 'General'),
-          _card(Colors.green, Icons.cloud, 'General'),
+          _card(Colors.blueAccent, Icons.movie_filter, 'Movies'),
+          _card(Colors.green, Icons.cloud, 'Services'),
         ]),
         TableRow(children: [
-          _card(Colors.red, Icons.collections, 'General'),
-          _card(Colors.teal, Icons.help_outline, 'General'),
+          _card(Colors.red, Icons.collections, 'Vacation'),
+          _card(Colors.teal, Icons.help_outline, 'Others'),
         ]),
       ],
     );
